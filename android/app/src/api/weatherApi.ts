@@ -1,4 +1,4 @@
-// weatherApi.ts (REPLACE WHOLE FILE)
+
 import axios from 'axios';
 
 // Open-Meteo API – No API key required
