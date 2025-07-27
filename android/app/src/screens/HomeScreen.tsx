@@ -136,7 +136,9 @@ const getIconFromCode = (code: number) => {
         placeholderTextColor="#ccc"
         value={inputCity}
         onChangeText={setInputCity}
-        onSubmitEditing={() => loadWeather(inputCity)}
+        onSubmitEditing={() => 
+          setcity(inputcity);
+          loadWeather(inputCity);}
       />
 
       <View style={styles.topSection}>
