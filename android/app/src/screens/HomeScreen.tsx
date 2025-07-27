@@ -137,7 +137,7 @@ const getIconFromCode = (code: number) => {
         value={inputCity}
         onChangeText={setInputCity}
         onSubmitEditing={() => 
-          setcity(inputcity);
+          setCity(inputcity);
           loadWeather(inputCity);}
       />
 
